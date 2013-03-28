@@ -15,7 +15,7 @@ void imprimir(char M[8][8]){
         }
         cout<<"\n";
         }
-
+  for(int z=0; z<10000000; z++){}
 }
 
 bool prohibido(int a,int b){
@@ -50,6 +50,7 @@ int main() {
                 }
         }
         
+        M[7][0]='X';
         M[2][2]='O';
         M[2][5]='O';
         M[5][2]='O';
@@ -58,10 +59,10 @@ int main() {
         imprimir(M);
 
         
-        int cont=0;
+    
         int k=0;
 
-        while(cont<60){
+        while(cont<59){
  
         int a = 1+(rand()%8);
 
