@@ -18,6 +18,18 @@ cout<<"\n";
 
 }
 
+bool prohibido(int a,int b){
+    if(a==2 && b==5)
+    return false;
+    else if(a==5 && b==2)
+     return false;
+      else if (a== 2 && b==2)
+       return false;
+        else if (a==5 && b==5)
+         return false;
+          else
+           return true;
+}
 /*
 *
 */
